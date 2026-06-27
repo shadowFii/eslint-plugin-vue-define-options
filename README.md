@@ -1,4 +1,4 @@
-# @shadowFii/eslint-plugin-vue-define-options
+# @shadowfii/eslint-plugin-vue-define-options
 
 An ESLint plugin for Vue 3 that enforces two things in every `<script setup>` block:
 
@@ -11,12 +11,12 @@ Without a `name`, Vue DevTools and error stack traces show generic component lab
 
 | Rule | Description | Recommended |
 |------|-------------|-------------|
-| `@shadowFii/vue-define-options/define-options-required` | Require `defineOptions({ name })` in every `<script setup>` | ✅ |
+| `@shadowfii/vue-define-options/define-options-required` | Require `defineOptions({ name })` in every `<script setup>` | ✅ |
 
 ## Installation
 
 ```bash
-npm install --save-dev @shadowFii/eslint-plugin-vue-define-options
+npm install --save-dev @shadowfii/eslint-plugin-vue-define-options
 ```
 
 The plugin uses `vue-eslint-parser` to understand `.vue` files, so install that too if you haven't already:
@@ -30,15 +30,15 @@ npm install --save-dev vue-eslint-parser
 ### Flat config (`eslint.config.js`)
 
 ```js
-import vueDefineOptions from '@shadowFii/eslint-plugin-vue-define-options'
+import vueDefineOptions from '@shadowfii/eslint-plugin-vue-define-options'
 
 export default [
   {
     plugins: {
-      '@shadowFii/vue-define-options': vueDefineOptions,
+      '@shadowfii/vue-define-options': vueDefineOptions,
     },
     rules: {
-      '@shadowFii/vue-define-options/define-options-required': 'error',
+      '@shadowfii/vue-define-options/define-options-required': 'error',
     },
   },
 ]
@@ -48,9 +48,9 @@ export default [
 
 ```js
 module.exports = {
-  plugins: ['@shadowFii/vue-define-options'],
+  plugins: ['@shadowfii/vue-define-options'],
   rules: {
-    '@shadowFii/vue-define-options/define-options-required': 'error',
+    '@shadowfii/vue-define-options/define-options-required': 'error',
   },
 }
 ```
@@ -59,7 +59,7 @@ module.exports = {
 
 ```js
 // eslint.config.js
-import vueDefineOptions from '@shadowFii/eslint-plugin-vue-define-options'
+import vueDefineOptions from '@shadowfii/eslint-plugin-vue-define-options'
 
 export default [vueDefineOptions.configs.recommended]
 ```

@@ -5,9 +5,9 @@ module.exports = {
     // Optional: predefined configs
     configs: {
         recommended: {
-            plugins: ['@shadowFii/vue-define-options'],
+            plugins: ['@shadowfii/vue-define-options'],
             rules: {
-                '@shadowFii/vue-define-options/define-options-required': 'error',
+                '@shadowfii/vue-define-options/define-options-required': 'error',
             },
         },
     },
