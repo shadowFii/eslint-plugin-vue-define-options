@@ -1,6 +1,6 @@
 {
   "name": "@shadowfii/eslint-plugin-vue-define-options",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint plugin that enforces the use of defineOptions in Vue 3 components",
   "main": "index.js",
   "scripts": {
