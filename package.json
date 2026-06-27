@@ -1,7 +1,7 @@
 {
-  "name": "@shadowFii/eslint-plugin-vue-define-options",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@shadowfii/eslint-plugin-vue-define-options",
+  "version": "0.0.1",
+  "description": "ESLint plugin that enforces the use of defineOptions in Vue 3 components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
